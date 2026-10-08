@@ -1,0 +1,35 @@
+# Snapshot of collections, pages, blogs, articles and redirects for the weekly audit.
+# Run with mcp__Shopify__graphql_query. Save the raw JSON response to snapshot/site.json.
+query SiteSnapshot {
+  collections(first: 50) {
+    nodes {
+      id title handle
+      description
+      seo { title description }
+      onStore: publishedOnPublication(publicationId: "gid://shopify/Publication/187224162544")
+      hidden: metafield(namespace: "seo", key: "hidden") { value }
+      activeProducts: products(first: 50) { nodes { status } }
+    }
+  }
+  pages(first: 50) {
+    nodes {
+      id title handle isPublished templateSuffix bodySummary
+      hidden: metafield(namespace: "seo", key: "hidden") { value }
+    }
+  }
+  blogs(first: 10) {
+    nodes {
+      id title handle
+      hidden: metafield(namespace: "seo", key: "hidden") { value }
+      articles(first: 50) {
+        nodes {
+          id title handle isPublished publishedAt
+          hidden: metafield(namespace: "seo", key: "hidden") { value }
+          titleTag: metafield(namespace: "global", key: "title_tag") { value }
+          descTag: metafield(namespace: "global", key: "description_tag") { value }
+        }
+      }
+    }
+  }
+  urlRedirectsCount { count }
+}

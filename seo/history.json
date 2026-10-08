@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-10-08",
+    "note": "first audit, before fixes",
+    "score": 35,
+    "areas": {
+      "product_meta": 86,
+      "product_content": 14,
+      "image_alt": 100,
+      "product_category": 43,
+      "collection_seo": 11,
+      "clean_index": 13,
+      "blog": 0
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "note": "after first fixes",
+    "score": 77,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 78,
+      "clean_index": 100,
+      "blog": 0
+    },
+    "live_products": 7,
+    "published_articles": 0,
+    "article_drafts_waiting": [
+      "gid://shopify/Article/599268229360"
+    ]
+  }
+]

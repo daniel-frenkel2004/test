@@ -1,0 +1,24 @@
+# Snapshot of all products for the weekly audit.
+# Run with mcp__Shopify__graphql_query, first: 50. If pageInfo.hasNextPage, run again with after: endCursor.
+# Save every page's raw JSON response to snapshot/products-<n>.json (the tool saves large results to a file by itself; copy that file).
+query ProductsSnapshot($first: Int!, $after: String) {
+  products(first: $first, after: $after) {
+    pageInfo { hasNextPage endCursor }
+    nodes {
+      id
+      title
+      handle
+      status
+      templateSuffix
+      updatedAt
+      onStore: publishedOnPublication(publicationId: "gid://shopify/Publication/187224162544")
+      onGoogle: publishedOnPublication(publicationId: "gid://shopify/Publication/190092345584")
+      description
+      seo { title description }
+      hidden: metafield(namespace: "seo", key: "hidden") { value }
+      category { fullName }
+      media(first: 25) { nodes { id alt mediaContentType } }
+      collections(first: 5) { nodes { handle } }
+    }
+  }
+}
