@@ -6,7 +6,7 @@ The cluster is "packing for a flight". The pillar is #1. Every other post links 
 
 | # | Title (working) | Main phrase | Links to | Status | Shopify ID |
 |---|---|---|---|---|---|
-| 1 | איך לארוז לשבוע בטרולי עלייה למטוס: שיטת הקוביות | איך לארוז טרולי לשבוע | cubes, passport wallet, cable organizer, medicine bag, scale | draft (2026-10-08) | gid://shopify/Article/599268229360 |
+| 1 | איך לארוז לשבוע בטרולי עלייה למטוס: שיטת הקוביות | איך לארוז טרולי לשבוע | cubes, passport wallet, cable organizer, medicine bag, scale | published (2026-10-08), 3 images + featured image | gid://shopify/Article/599268229360 |
 | 2 | קוביות דחיסה: מה זה, איך משתמשים, ושווה או לא | קוביות דחיסה | cubes, travel-essentials | idea | |
 | 3 | רשימת ציוד לטיסה: מה לקחת בתיק היד | רשימת ציוד לטיסה | neck pillow, cable organizer, passport wallet | idea | |
 | 4 | טיסה עם ילדים: רשימת אריזה שלא שוכחת כלום | טיסה עם ילדים מה לקחת | medicine bag, passport wallet, cubes | idea | |
@@ -24,6 +24,7 @@ The cluster is "packing for a flight". The pillar is #1. Every other post links 
   - 2–4 internal links.
   - SEO title and description set in the metafields `global.title_tag` and `global.description_tag`.
 - Use only facts from `seo/store-profile.md`. For airline or airport rules, tell the reader to check with the airline or airport. Never state numbers.
+- At least 2 images in the body. Use the store's own product photos from Shopify (`product.media`): pick by alt text, and add Hebrew alt text, `width`/`height`, `loading="lazy"`, and `&amp;width=1200` on PNG URLs. Also set a featured image with `article.image`. The owner asked for this on 2026-10-08.
 - Leave it as a draft. In the report, ask the owner to:
   1. read it,
   2. add a personal tip or a real photo (this is what makes Google trust it),

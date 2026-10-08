@@ -66,3 +66,14 @@ These were all old-brand or empty. The pages stay live for visitors and ads. To 
 
 ### New article draft (`articleCreate`, `isPublished: false`)
 - "איך לארוז לשבוע בטרולי עלייה למטוס: שיטת הקוביות", `gid://shopify/Article/599268229360`, in blog `news`.
+
+## 2026-10-08 (later): article images and publish (owner approved in chat)
+- **Article** `gid://shopify/Article/599268229360` (how-to-pack-carry-on-for-a-week), using `articleUpdate`:
+  - **Old state:** `isPublished: false`, no featured image, body without images.
+  - **New state:** `isPublished: true`.
+  - **Featured image:** the store's own photo `hf_20260909_103219_…png` (5 cubes plus laundry bag).
+  - **3 store images added to the body,** each with Hebrew alt text, width and height set, and lazy loading:
+    - `2.svg`: what goes in each cube (after step 2)
+    - `hf_20260909_105939_…png`: before/after comparison (after step 4)
+    - `hf_20260921_074101_46fad4ab…png`: medicine bag open (after step 6)
+- **To undo:** run `articleUpdate` with `isPublished: false`. The body without images is the original draft text (`content-plan.md` #1).

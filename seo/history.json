@@ -31,5 +31,22 @@
     "article_drafts_waiting": [
       "gid://shopify/Article/599268229360"
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "note": "first article published with 3 store images + featured image",
+    "score": 81,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 78,
+      "clean_index": 100,
+      "blog": 22
+    },
+    "live_products": 7,
+    "published_articles": 1,
+    "article_drafts_waiting": []
   }
 ]
