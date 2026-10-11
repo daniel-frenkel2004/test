@@ -77,3 +77,62 @@ These were all old-brand or empty. The pages stay live for visitors and ads. To 
     - `hf_20260909_105939_…png`: before/after comparison (after step 4)
     - `hf_20260921_074101_46fad4ab…png`: medicine bag open (after step 6)
 - **To undo:** run `articleUpdate` with `isPublished: false`. The body without images is the original draft text (`content-plan.md` #1).
+
+## 2026-10-11: weekly run
+
+### New article draft (`articleCreate`, `isPublished: false`)
+- **Old value:** none (new article; nothing existed before). Handle `what-are-compression-packing-cubes` was checked and is free.
+- **New:** "קוביות דחיסה: מה זה, איך משתמשים, ושווה או לא", in blog `news` (`gid://shopify/Blog/103550681328`), content plan #2.
+  - Body: 719 words, 2 store images (`6859f567…png` double zipper, `hf_20260920_101257_…png` red set); featured image `hf_20260920_102323_8108d6fd…png` (light-blue set).
+  - Links: `/products/compression-cubes-6`, `/collections/travel-essentials`, `/products/luggage-scale`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
+  - Metafields `global.title_tag` and `global.description_tag` set on create.
+- **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
+
+### Fixes
+
+#### Pillow filled with clothes: `כרית-צוואר-שממלאים-בבגדים-חוסכת-מקום-בתיק` `gid://shopify/Product/10347021435120` (`productUpdate`)
+Went live 2026-10-08 16:45Z via Shopify Claude Connector (not by this agent).
+- **SEO title:** old (empty) → new `כרית צוואר שממלאים בבגדים · חוסכת מקום · Higanu`
+- **SEO description:** old (empty) → new `כרית צוואר שממלאים בבגדים דרך רוכסן בקצה, והיא מקבלת צורת U רכה. ריקה היא מתקפלת לכף יד, וכך נשאר מקום בטרולי לבגדים.`
+- **Category:** old (none) → new Health & Beauty > Personal Care > Sleeping Aids > Travel Pillows (`gid://shopify/TaxonomyCategory/hb-3-15-3`, same as neck-pillow)
+- **descriptionHtml** (rewrite 1 of 5): the old text kept word for word, with one closing paragraph with 2 links added.
+  - Old value:
+```html
+<p><strong>הסוודר שלא נכנס לתיק הופך לכרית לטיסה.</strong></p><p>הכרית מגיעה ריקה. ממלאים אותה דרך רוכסן בקצה בחולצות, בסוודר או בצעיף, והיא מקבלת צורת U רכה שמחזיקה את הצוואר. ככה יש כרית בטיסה, ויש מקום בטרולי לבגדים.</p><ul>
+<li>בד קטיפתי רך, שחור</li>
+<li>רוכסן מילוי בקצה</li>
+<li>אבזם קדמי שמחזיק את הכרית סגורה</li>
+<li>רצועה מתכווננת לתלייה על התיק או על הטרולי</li>
+<li>ריקה היא מתקפלת לגודל של כף יד</li>
+</ul>
+```
+  - Added at the end:
+```html
+<p>את הבגדים שלא נכנסו לכרית מסדרים ב<a href="/products/compression-cubes-6">קוביות הדחיסה של Higanu</a>. את שאר האביזרים לטיסה רואים ב<a href="/collections/travel-essentials">לדרך</a>.</p>
+```
+- **To undo:** `productUpdate` with `seo: {title: "", description: ""}`, `category: null`, and `descriptionHtml` = the old value above.
+
+#### Hood pillow: `כרית-צוואר-עם-ברדס-נרדמים-גם-כשהאור-דולק` `gid://shopify/Product/10347021730032` (`productUpdate`)
+Went live 2026-10-08 16:45Z via Shopify Claude Connector (not by this agent).
+- **SEO title:** old (empty) → new `כרית צוואר עם ברדס · חוסמת אור בטיסה · Higanu`
+- **SEO description:** old (empty) → new `כרית צוואר עם ברדס שנמשך על העיניים וחוסם את האור במטוס. צורת U באורך 73 ס״מ, ג׳רסי כותנה רך. מתקפלת לשקית עם רצועה שנתלית על הטרולי.`
+- **Category:** old (none) → new Health & Beauty > Personal Care > Sleeping Aids > Travel Pillows (`gid://shopify/TaxonomyCategory/hb-3-15-3`)
+- **descriptionHtml** (rewrite 2 of 5): the old text kept word for word, with one closing paragraph with 2 links added.
+  - Old value:
+```html
+<p><strong>מושכים את הברדס על העיניים, והאור של המטוס נעלם.</strong></p><p>כרית צוואר בצורת U עם ברדס רך מחובר. הכרית מחזיקה את הראש כשנרדמים בישיבה, והברדס חוסם את האור ואת התנועה מסביב. בסוף הטיסה מקפלים אותה לשקית קטנה עם רצועה שנתלית על ידית הטרולי.</p><ul>
+<li>בד ג׳רסי כותנה רך, אפור</li>
+<li>ברדס מחובר שנמשך על העיניים</li>
+<li>אבזם קדמי מתכוונן</li>
+<li>שקית אחסון עם רצועת כתף</li>
+<li>73 ס״מ לאורך הכרית</li>
+</ul>
+```
+  - Added at the end:
+```html
+<p>הכרית בשקית שלה נתלית על הטרולי, והבגדים מסודרים בפנים ב<a href="/products/compression-cubes-6">קוביות הדחיסה של Higanu</a>. את שאר האביזרים לטיסה רואים ב<a href="/collections/travel-essentials">לדרך</a>.</p>
+```
+- **To undo:** `productUpdate` with `seo: {title: "", description: ""}`, `category: null`, and `descriptionHtml` = the old value above.
+
+### New article draft: result
+- **Created:** `gid://shopify/Article/599295721712`, handle `what-are-compression-packing-cubes`, `isPublished: false` (checked after create). This belongs to "New article draft" above, not to "Fixes".
