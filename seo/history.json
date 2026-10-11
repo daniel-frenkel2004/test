@@ -48,5 +48,25 @@
     "live_products": 7,
     "published_articles": 1,
     "article_drafts_waiting": []
+  },
+  {
+    "date": "2026-10-11",
+    "note": "weekly run: start 76 (2 new live pillows without SEO), after fixes 84",
+    "score_start": 76,
+    "score": 84,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 100,
+      "clean_index": 100,
+      "blog": 22
+    },
+    "live_products": 9,
+    "published_articles": 1,
+    "article_drafts_waiting": [
+      "gid://shopify/Article/599295721712"
+    ]
   }
 ]

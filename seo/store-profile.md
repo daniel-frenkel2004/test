@@ -26,6 +26,8 @@ Settings the owner can change:
 | cable-organizer | gid://shopify/Product/10247983137008 | 99 | 3 layers, elastic loops, mesh pockets. |
 | family-passport-wallet | gid://shopify/Product/10247983268080 | 59 | Up to 6 passports, boarding passes and credit cards, RFID-blocking coating. |
 | medicine-bag | gid://shopify/Product/10311535526128 | 69 | Opens like a book, elastic loops for bottles and pill trays, mesh pockets, 22×15×6 cm. |
+| כרית-צוואר-שממלאים-בבגדים-חוסכת-מקום-בתיק | gid://shopify/Product/10347021435120 | 129 | Neck pillow that arrives empty; fill it through an end zipper with shirts, a sweater or a scarf for a soft U shape. Soft velvety fabric, black. Front buckle keeps it closed; adjustable strap hangs it on the bag or trolley. Folds to palm size when empty. Image alt: a sweater, 2 shirts, leggings and 2 pairs of socks fit inside. Category Travel Pillows (`hb-3-15-3`). Only in travel-essentials. Hebrew handle. Went live 2026-10-08 16:45Z via Shopify Claude Connector (not by this agent; owner to confirm). |
+| כרית-צוואר-עם-ברדס-נרדמים-גם-כשהאור-דולק | gid://shopify/Product/10347021730032 | 129 | U-shaped neck pillow with an attached soft hood that pulls over the eyes and blocks light and movement. Soft cotton jersey, grey. Adjustable front buckle. 73 cm long. Folds into a storage pouch with a shoulder strap that hangs on the trolley handle. Category Travel Pillows (`hb-3-15-3`). Only in travel-essentials. Hebrew handle. Went live 2026-10-08 16:45Z via Shopify Claude Connector (not by this agent; owner to confirm). |
 
 - Every live product has image alt text.
 - No variant has a barcode (GTIN).

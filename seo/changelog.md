@@ -136,3 +136,41 @@ Went live 2026-10-08 16:45Z via Shopify Claude Connector (not by this agent).
 
 ### New article draft: result
 - **Created:** `gid://shopify/Article/599295721712`, handle `what-are-compression-packing-cubes`, `isPublished: false` (checked after create). This belongs to "New article draft" above, not to "Fixes".
+
+#### Collection intros (`collectionUpdate` → `descriptionHtml`)
+To undo any of these, run `collectionUpdate` with `descriptionHtml` = the old value.
+
+- **small-addons** `gid://shopify/Collection/490279174384`: the old intro listed 5 items and missed the medicine bag. The new one lists all 6, links the cubes set and adds free shipping (54 words).
+  - Old value:
+```html
+<p>הפריטים הקטנים שמשלימים את המזוודה: תיק טואלטיקה, משקל, כרית, ארגונית כבלים וארנק דרכונים.</p>
+```
+  - New value:
+```html
+<p>הפריטים הקטנים שמשלימים את המזוודה ואת <a href="/products/compression-cubes-6">סט קוביות הדחיסה</a>. תיק טואלטיקה תלוי שנפתח ונתלה על הדלת. משקל מזוודה דיגיטלי עד 50 ק״ג. כרית צוואר מתנפחת שמתקפלת לגודל כף יד. ארגונית כבלים בשלוש שכבות. ארנק דרכונים משפחתי עם חסימת RFID, עד 6 דרכונים. תיק תרופות לדרך שנפתח כמו ספר. משלוח חינם מעל 139 ₪.</p>
+```
+
+- **all-products** `gid://shopify/Collection/491267588336`: the owner's first sentence was kept word for word. Added: the 5-cube set with the laundry bag, the accessories for the flight and for families, and the guarantees (64 words). The two new pillows are not named, because they are not in this collection.
+  - Old value:
+```html
+<p>הסט המלא בראש, ואחריו כל מה שמשלים אותו: תיקים לנסיעה, ארגון ונוחות בטיסה.</p>
+```
+  - New value:
+```html
+<p>הסט המלא בראש, ואחריו כל מה שמשלים אותו: תיקים לנסיעה, ארגון ונוחות בטיסה.</p><p>הסט הוא <a href="/products/compression-cubes-6">חמש קוביות דחיסה ושק כביסה</a>, עם רוכסן כפול וקובייה לכל סוג בגד. לטיסה יש תיק טואלטיקה תלוי, משקל מזוודה, כרית צוואר מתנפחת וארגונית כבלים. למשפחות יש ארנק דרכונים לעד 6 דרכונים ותיק תרופות לדרך.</p><p>30 יום החזר כספי, 12 חודשי אחריות על הרוכסן, משלוח חינם מעל 139 ₪.</p>
+```
+
+- **travel-essentials** `gid://shopify/Collection/490279108848`: removed the sentence "טרולי מיני (3 קוביות) למי שנוסע קל.", because `compression-cubes-3` (`gid://shopify/Product/10248484684016`) is DRAFT and can't be bought. The owner's other two sentences were kept word for word. Added the accessories, including the two new neck pillows (49 words).
+  - Old value:
+```html
+<p>הסט המלא הוא הבסיס: חמש קוביות דחיסה ושק כביסה, וכל בגד יודע לאן. טרולי מיני (3 קוביות) למי שנוסע קל. את השאר מוסיפים לפי הצורך.</p>
+```
+  - New value:
+```html
+<p>הסט המלא הוא הבסיס: חמש קוביות דחיסה ושק כביסה, וכל בגד יודע לאן. את השאר מוסיפים לפי הצורך.</p><p>לטיסה יש שלוש כריות צוואר: מתנפחת שמתקפלת לכף יד, כרית שממלאים בבגדים, וכרית עם ברדס שחוסם את האור. וגם: תיק טואלטיקה תלוי, משקל מזוודה, ארגונית כבלים, ארנק דרכונים משפחתי ותיק תרופות.</p>
+```
+
+#### Weekly caps used by these fixes
+- SEO title/description edits: 4 of 50 (2 titles, 2 descriptions).
+- Description rewrites: 2 of 5 for products (the two pillows). The 3 collection intros were also rewritten, so 5 of 5 if collection intros count against the same cap.
+- Categories set: 2 (no cap).

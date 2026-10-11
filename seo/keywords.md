@@ -14,12 +14,16 @@ Each page targets one main search phrase. Two pages must not compete for the sam
 | /products/toiletry-bag | תיק טואלטיקה תלוי | תיק רחצה לטיסה, תיק טואלטיקה לנסיעות |
 | /products/luggage-scale | משקל מזוודה | משקל מזוודה דיגיטלי, משקל לתיק |
 | /products/neck-pillow | כרית צוואר לטיסה | כרית טיסה מתנפחת, כרית צוואר מתקפלת |
+| /products/כרית-צוואר-שממלאים-בבגדים-חוסכת-מקום-בתיק | כרית צוואר שממלאים בבגדים | כרית צוואר ממולאת בבגדים, כרית טיסה שחוסכת מקום |
+| /products/כרית-צוואר-עם-ברדס-נרדמים-גם-כשהאור-דולק | כרית צוואר עם ברדס | כרית טיסה עם ברדס, כרית צוואר עם קפוצ׳ון |
 | /products/cable-organizer | ארגונית כבלים | נרתיק כבלים לנסיעות, ארגונית מטענים |
 | /products/family-passport-wallet | ארנק דרכונים משפחתי | נרתיק דרכונים, ארנק דרכונים RFID |
 | /products/medicine-bag | תיק תרופות לנסיעה | תיק תרופות לטיסה, תרופות לחופשה עם ילדים |
 
 ## Blog (questions people ask)
 Plural and "how to" phrases go to articles; see `content-plan.md`.
+
+The article "קוביות דחיסה: מה זה..." targets the question form ("קוביות דחיסה מה זה", "קוביות דחיסה שווה את זה"). The product page keeps the main phrase "קוביות דחיסה". The article links to the product with the anchor "קוביות הדחיסה של Higanu".
 - איך לארוז מזוודה
 - איך לארוז טרולי לשבוע
 - רשימת ציוד לטיסה
