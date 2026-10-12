@@ -68,5 +68,22 @@
     "article_drafts_waiting": [
       "gid://shopify/Article/599295721712"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "note": "owner approved and published article #2",
+    "score": 87,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 100,
+      "clean_index": 100,
+      "blog": 33
+    },
+    "live_products": 9,
+    "published_articles": 2,
+    "article_drafts_waiting": []
   }
 ]

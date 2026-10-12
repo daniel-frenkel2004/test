@@ -174,3 +174,7 @@ To undo any of these, run `collectionUpdate` with `descriptionHtml` = the old va
 - SEO title/description edits: 4 of 50 (2 titles, 2 descriptions).
 - Description rewrites: 2 of 5 for products (the two pillows). The 3 collection intros were also rewritten, so 5 of 5 if collection intros count against the same cap.
 - Categories set: 2 (no cap).
+
+## 2026-10-12: owner approved publishing article #2 in chat ("תפרסם את המאמר השני")
+- Article `gid://shopify/Article/599295721712` (what-are-compression-packing-cubes), via `articleUpdate`: `isPublished` changed from false to true. Nothing else changed.
+- **To undo:** `articleUpdate` with `isPublished: false`.
