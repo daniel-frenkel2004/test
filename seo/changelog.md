@@ -188,3 +188,29 @@ To undo any of these, run `collectionUpdate` with `descriptionHtml` = the old va
   - Links: `/products/family-passport-wallet`, `/products/cable-organizer`, `/products/neck-pillow`, `/collections/travel-essentials`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
   - Metafields `global.title_tag` and `global.description_tag` set on create.
 - **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
+
+### Fixes
+
+#### Collection intros: the two new pillows (`collectionUpdate` → `descriptionHtml`)
+The owner added the two new neck pillows (`gid://shopify/Product/10347021435120`, `gid://shopify/Product/10347021730032`) to these collections around 2026-10-17. The intros named only the inflatable pillow. Minimal edit: one short fact per new pillow, all other text and links kept word for word.
+
+- **small-addons** `gid://shopify/Collection/490279174384`, field `descriptionHtml` (54 → 63 words).
+  - Old value:
+```html
+<p>הפריטים הקטנים שמשלימים את המזוודה ואת <a href="/products/compression-cubes-6">סט קוביות הדחיסה</a>. תיק טואלטיקה תלוי שנפתח ונתלה על הדלת. משקל מזוודה דיגיטלי עד 50 ק״ג. כרית צוואר מתנפחת שמתקפלת לגודל כף יד. ארגונית כבלים בשלוש שכבות. ארנק דרכונים משפחתי עם חסימת RFID, עד 6 דרכונים. תיק תרופות לדרך שנפתח כמו ספר. משלוח חינם מעל 139 ₪.</p>
+```
+  - New value:
+```html
+<p>הפריטים הקטנים שמשלימים את המזוודה ואת <a href="/products/compression-cubes-6">סט קוביות הדחיסה</a>. תיק טואלטיקה תלוי שנפתח ונתלה על הדלת. משקל מזוודה דיגיטלי עד 50 ק״ג. כרית צוואר מתנפחת שמתקפלת לגודל כף יד, כרית שממלאים בבגדים, וכרית עם ברדס שחוסם את האור. ארגונית כבלים בשלוש שכבות. ארנק דרכונים משפחתי עם חסימת RFID, עד 6 דרכונים. תיק תרופות לדרך שנפתח כמו ספר. משלוח חינם מעל 139 ₪.</p>
+```
+
+- **all-products** `gid://shopify/Collection/491267588336`, field `descriptionHtml` (64 → 74 words).
+  - Old value:
+```html
+<p>הסט המלא בראש, ואחריו כל מה שמשלים אותו: תיקים לנסיעה, ארגון ונוחות בטיסה.</p><p>הסט הוא <a href="/products/compression-cubes-6">חמש קוביות דחיסה ושק כביסה</a>, עם רוכסן כפול וקובייה לכל סוג בגד. לטיסה יש תיק טואלטיקה תלוי, משקל מזוודה, כרית צוואר מתנפחת וארגונית כבלים. למשפחות יש ארנק דרכונים לעד 6 דרכונים ותיק תרופות לדרך.</p><p>30 יום החזר כספי, 12 חודשי אחריות על הרוכסן, משלוח חינם מעל 139 ₪.</p>
+```
+  - New value:
+```html
+<p>הסט המלא בראש, ואחריו כל מה שמשלים אותו: תיקים לנסיעה, ארגון ונוחות בטיסה.</p><p>הסט הוא <a href="/products/compression-cubes-6">חמש קוביות דחיסה ושק כביסה</a>, עם רוכסן כפול וקובייה לכל סוג בגד. לטיסה יש תיק טואלטיקה תלוי, משקל מזוודה, ארגונית כבלים ושלוש כריות צוואר: מתנפחת, כזו שממלאים בבגדים, וכזו עם ברדס שחוסם את האור. למשפחות יש ארנק דרכונים לעד 6 דרכונים ותיק תרופות לדרך.</p><p>30 יום החזר כספי, 12 חודשי אחריות על הרוכסן, משלוח חינם מעל 139 ₪.</p>
+```
+- **To undo:** `collectionUpdate` with the old value.
