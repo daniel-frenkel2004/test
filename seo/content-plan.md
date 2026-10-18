@@ -8,7 +8,7 @@ The cluster is "packing for a flight". The pillar is #1. Every other post links 
 |---|---|---|---|---|---|
 | 1 | איך לארוז לשבוע בטרולי עלייה למטוס: שיטת הקוביות | איך לארוז טרולי לשבוע | cubes, passport wallet, cable organizer, medicine bag, scale | published (2026-10-08), 3 images + featured image | gid://shopify/Article/599268229360 |
 | 2 | קוביות דחיסה: מה זה, איך משתמשים, ושווה או לא | קוביות דחיסה | cubes, travel-essentials, pillar #1, scale | published (2026-10-12), handle `what-are-compression-packing-cubes`, 2 images + featured image | gid://shopify/Article/599295721712 |
-| 3 | רשימת ציוד לטיסה: מה לקחת בתיק היד | רשימת ציוד לטיסה | neck pillow, cable organizer, passport wallet, travel-essentials, pillar #1 | draft (2026-10-18), handle `flight-carry-on-packing-list`, 3 images + featured image | gid://shopify/Article/599369875696 |
+| 3 | רשימת ציוד לטיסה: מה לקחת בתיק היד | רשימת ציוד לטיסה | neck pillow, cable organizer, passport wallet, travel-essentials, pillar #1 | published (2026-10-18), handle `flight-carry-on-packing-list`, 3 images + featured image | gid://shopify/Article/599369875696 |
 | 4 | טיסה עם ילדים: רשימת אריזה שלא שוכחת כלום | טיסה עם ילדים מה לקחת | medicine bag, passport wallet, cubes | idea | |
 | 5 | מה לשים בתיק תרופות לחו"ל (ומה לבדוק לפני) | תיק תרופות לחו"ל | medicine bag | idea | |
 | 6 | איך לא לעבור את משקל המזוודה בחזור מחו"ל | משקל מזוודה | scale, cubes | idea | |

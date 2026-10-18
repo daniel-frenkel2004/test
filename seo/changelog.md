@@ -216,3 +216,7 @@ The owner added the two new neck pillows (`gid://shopify/Product/10347021435120`
 <p>הסט המלא בראש, ואחריו כל מה שמשלים אותו: תיקים לנסיעה, ארגון ונוחות בטיסה.</p><p>הסט הוא <a href="/products/compression-cubes-6">חמש קוביות דחיסה ושק כביסה</a>, עם רוכסן כפול וקובייה לכל סוג בגד. לטיסה יש תיק טואלטיקה תלוי, משקל מזוודה, ארגונית כבלים ושלוש כריות צוואר: מתנפחת, כזו שממלאים בבגדים, וכזו עם ברדס שחוסם את האור. למשפחות יש ארנק דרכונים לעד 6 דרכונים ותיק תרופות לדרך.</p><p>30 יום החזר כספי, 12 חודשי אחריות על הרוכסן, משלוח חינם מעל 139 ₪.</p>
 ```
 - **To undo:** `collectionUpdate` with the old value.
+
+## 2026-10-18: owner approved publishing article #3 in chat ("תפרסם את המאמר")
+- Article `gid://shopify/Article/599369875696` (flight-carry-on-packing-list), via `articleUpdate`: `isPublished` changed from false to true.
+- **To undo:** `articleUpdate` with `isPublished: false`.
