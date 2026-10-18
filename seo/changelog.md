@@ -188,6 +188,8 @@ To undo any of these, run `collectionUpdate` with `descriptionHtml` = the old va
   - Links: `/products/family-passport-wallet`, `/products/cable-organizer`, `/products/neck-pillow`, `/collections/travel-essentials`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
   - Metafields `global.title_tag` and `global.description_tag` set on create.
 - **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
+- Created (retry after restart): gid://shopify/Article/599369875696
+- Correction: final body is 640 words (not 647). Images, featured image, links and metafields are as listed above.
 
 ### Fixes
 
