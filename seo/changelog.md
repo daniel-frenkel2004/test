@@ -178,3 +178,13 @@ To undo any of these, run `collectionUpdate` with `descriptionHtml` = the old va
 ## 2026-10-12: owner approved publishing article #2 in chat ("תפרסם את המאמר השני")
 - Article `gid://shopify/Article/599295721712` (what-are-compression-packing-cubes), via `articleUpdate`: `isPublished` changed from false to true. Nothing else changed.
 - **To undo:** `articleUpdate` with `isPublished: false`.
+
+## 2026-10-18: weekly run
+
+### New article draft (`articleCreate`, `isPublished: false`)
+- **Old value:** none (new article; nothing existed before). Handle `flight-carry-on-packing-list` was checked and is free.
+- **New:** "רשימת ציוד לטיסה: מה לקחת בתיק היד", in blog `news` (`gid://shopify/Blog/103550681328`), content plan #3.
+  - Body: 647 words, 3 store images (`hg-wallet-g3.jpg` passport wallet open, `hg-cables-g3.jpg` cable organizer in a backpack, `hg-pillow-inflatable-g4.jpg` neck pillow on the plane); featured image `hg-wallet-g4.jpg` (passport at the airport gate).
+  - Links: `/products/family-passport-wallet`, `/products/cable-organizer`, `/products/neck-pillow`, `/collections/travel-essentials`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
+  - Metafields `global.title_tag` and `global.description_tag` set on create.
+- **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
