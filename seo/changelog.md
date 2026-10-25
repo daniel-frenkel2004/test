@@ -230,3 +230,4 @@ The owner added the two new neck pillows (`gid://shopify/Product/10347021435120`
   - Links: `/products/family-passport-wallet`, `/products/medicine-bag`, `/products/compression-cubes-6`, `/collections/travel-essentials`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
   - Metafields `global.title_tag` and `global.description_tag` set on create.
 - **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
+- **Not created:** the `articleCreate` call was declined at the permission prompt on 2026-10-25. Nothing changed in Shopify. Content plan row #4 stays `idea`. The body is saved locally for a retry.
