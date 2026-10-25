@@ -220,3 +220,13 @@ The owner added the two new neck pillows (`gid://shopify/Product/10347021435120`
 ## 2026-10-18: owner approved publishing article #3 in chat ("תפרסם את המאמר")
 - Article `gid://shopify/Article/599369875696` (flight-carry-on-packing-list), via `articleUpdate`: `isPublished` changed from false to true.
 - **To undo:** `articleUpdate` with `isPublished: false`.
+
+## 2026-10-25: weekly run
+
+### New article draft (`articleCreate`, `isPublished: false`)
+- **Old value:** none (new article; nothing existed before). Handle `flying-with-kids-packing-list` was checked and is free.
+- **New:** "טיסה עם ילדים: רשימת אריזה שלא שוכחת כלום", in blog `news` (`gid://shopify/Blog/103550681328`), content plan #4.
+  - Body: 646 words, 3 store images (passport wallet open with 6 passports `CodexImageSep8_2026_03_42_46PM.png`, mother taking syrup from the medicine bag `hf_20260921_074101_59c1334d...png`, 5 cubes and laundry bag with size labels `hf_20260909_103219_67651d3d...png`); featured image medicine bag open `hf_20260921_074101_46fad4ab...png`.
+  - Links: `/products/family-passport-wallet`, `/products/medicine-bag`, `/products/compression-cubes-6`, `/collections/travel-essentials`, pillar `/blogs/news/how-to-pack-carry-on-for-a-week`.
+  - Metafields `global.title_tag` and `global.description_tag` set on create.
+- **To undo:** the owner deletes the draft in Shopify admin (the agent never deletes articles).
