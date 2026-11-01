@@ -17,6 +17,17 @@ The cluster is "packing for a flight". The pillar is #1. Every other post links 
 | 9 | אריזה למשפחה: מזוודה אחת לכל הילדים | אריזה למשפחה | cubes, travel-essentials | idea | |
 | 10 | קוביות דחיסה או שקיות ואקום: מה עדיף | קוביות דחיסה או שקיות ואקום | cubes | idea | |
 
+## Articles published outside this agent (owner or another Claude chat)
+They state airline rules and prices as numbers. The owner must check them against the airline sites, and keep them updated.
+| Title (handle) | Published | GID | Notes |
+|---|---|---|---|
+| luggage-weight-limit-by-airline | 2026-10-25 | gid://shopify/Article/599437443312 | overlaps #6 and the luggage-scale keyword "משקל מזוודה" |
+| how-to-pack-a-suitcase | 2026-10-25 | gid://shopify/Article/599437476080 | close to pillar #1 |
+| wizz-air-baggage-allowance | 2026-10-26 | gid://shopify/Article/599479091440 | Wizz prices in euro |
+| carry-on-trolley-size-by-airline | 2026-10-29 | gid://shopify/Article/599521886448 | SEO title 70 chars; no featured image |
+
+Because of the overlap, skip #6 unless the owner asks for it.
+
 ## Rules for the writer
 - Each article:
   - 500–1,200 words of simple Hebrew.

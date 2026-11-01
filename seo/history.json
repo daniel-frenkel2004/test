@@ -138,5 +138,22 @@
     "live_products": 9,
     "published_articles": 3,
     "article_drafts_waiting": []
+  },
+  {
+    "date": "2026-11-01",
+    "note": "weekly+monthly run: 4 articles published outside the agent (airline numbers), all-products intro shortened outside the agent; no fixes",
+    "score": 96,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 89,
+      "clean_index": 100,
+      "blog": 89
+    },
+    "live_products": 9,
+    "published_articles": 7,
+    "article_drafts_waiting": []
   }
 ]

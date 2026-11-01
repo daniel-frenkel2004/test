@@ -53,8 +53,8 @@ The store previously sold KNEORA (knee sleeves, home gym) and PetIL (dog product
   - Online Store `gid://shopify/Publication/187224162544`
   - Google & YouTube `gid://shopify/Publication/190092345584`
   - Facebook & Instagram `gid://shopify/Publication/187695202544`
-- Blog for articles: "News", handle `news`, `gid://shopify/Blog/103550681328`. It sits in the main menu as "בלוג". Its title is still "News" (renaming it needs the owner's OK).
-- Live theme: "הגענו | 5.10 Claude: החורף טסים עד 31.10", `gid://shopify/OnlineStoreTheme/167088947440`. This changes often, so re-check `themes(roles: [MAIN])`.
+- Blog for articles: "News", handle `news`, `gid://shopify/Blog/103550681328`. It sits in the main menu as "בלוג". Renamed outside the agent to "מדריכי אריזה וטיסה" (seen 2026-11-01).
+- Live theme (2026-11-01): "30.10 Claude: 1+1 + תיקון 239 בכפתור וב-FAQ", `gid://shopify/OnlineStoreTheme/167307772144`. This changes often, so re-check `themes(roles: [MAIN])`.
 
 ## Brand voice (copy what is already in the store)
 - Short, concrete sentences. Real numbers (sizes, grams, days).
