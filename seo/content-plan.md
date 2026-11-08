@@ -9,7 +9,7 @@ The cluster is "packing for a flight". The pillar is #1. Every other post links 
 | 1 | איך לארוז לשבוע בטרולי עלייה למטוס: שיטת הקוביות | איך לארוז טרולי לשבוע | cubes, passport wallet, cable organizer, medicine bag, scale | published (2026-10-08), 3 images + featured image | gid://shopify/Article/599268229360 |
 | 2 | קוביות דחיסה: מה זה, איך משתמשים, ושווה או לא | קוביות דחיסה | cubes, travel-essentials, pillar #1, scale | published (2026-10-12), handle `what-are-compression-packing-cubes`, 2 images + featured image | gid://shopify/Article/599295721712 |
 | 3 | רשימת ציוד לטיסה: מה לקחת בתיק היד | רשימת ציוד לטיסה | neck pillow, cable organizer, passport wallet, travel-essentials, pillar #1 | published (2026-10-18), handle `flight-carry-on-packing-list`, 3 images + featured image | gid://shopify/Article/599369875696 |
-| 4 | טיסה עם ילדים: רשימת אריזה שלא שוכחת כלום | טיסה עם ילדים מה לקחת | medicine bag, passport wallet, cubes | idea | |
+| 4 | טיסה עם ילדים: רשימת אריזה שלא שוכחת כלום | טיסה עם ילדים מה לקחת | medicine bag, passport wallet, cubes | covered outside the agent (flying-with-kids, 2026-11-05); skip | |
 | 5 | מה לשים בתיק תרופות לחו"ל (ומה לבדוק לפני) | תיק תרופות לחו"ל | medicine bag | idea | |
 | 6 | איך לא לעבור את משקל המזוודה בחזור מחו"ל | משקל מזוודה | scale, cubes | idea | |
 | 7 | איך לישון בטיסה: 7 דברים שעובדים | איך לישון בטיסה | neck pillow | idea | |
@@ -25,6 +25,8 @@ They state airline rules and prices as numbers. The owner must check them agains
 | how-to-pack-a-suitcase | 2026-10-25 | gid://shopify/Article/599437476080 | close to pillar #1 |
 | wizz-air-baggage-allowance | 2026-10-26 | gid://shopify/Article/599479091440 | Wizz prices in euro |
 | carry-on-trolley-size-by-airline | 2026-10-29 | gid://shopify/Article/599521886448 | SEO title 70 chars; no featured image |
+| what-can-you-take-in-hand-luggage | 2026-11-02 | gid://shopify/Article/599552590064 | overlaps #3; title tag 77 chars; no featured image |
+| flying-with-kids | 2026-11-05 | gid://shopify/Article/599580934384 | covers #4; no featured image; em dashes and a typo |
 
 Because of the overlap, skip #6 unless the owner asks for it.
 

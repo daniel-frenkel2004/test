@@ -155,5 +155,22 @@
     "live_products": 9,
     "published_articles": 7,
     "article_drafts_waiting": []
+  },
+  {
+    "date": "2026-11-08",
+    "note": "weekly run: 2 more articles published outside the agent; no fixes (all open items need owner)",
+    "score": 98,
+    "areas": {
+      "product_meta": 100,
+      "product_content": 100,
+      "image_alt": 100,
+      "product_category": 100,
+      "collection_seo": 89,
+      "clean_index": 100,
+      "blog": 100
+    },
+    "live_products": 9,
+    "published_articles": 9,
+    "article_drafts_waiting": []
   }
 ]
